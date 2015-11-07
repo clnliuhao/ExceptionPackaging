@@ -1,0 +1,13 @@
+package space.liuhao.exception_lib.json;
+
+/**
+ * 参数不可以为Null或空字符串异常
+ *
+ * @author 刘浩 2015-11-07 16:25
+ * @version 1.0.0
+ */
+public class ParameterNotIsNullOrEmpty extends Throwable{
+
+    public ParameterNotIsNullOrEmpty(){
+    }
+}
